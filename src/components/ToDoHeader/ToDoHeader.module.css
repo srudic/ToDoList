@@ -1,0 +1,16 @@
+.ToDoHeader {
+  width: 400px;
+  background-image: url("../../flowers.jpg");
+  margin-top: 2em;
+  padding: 0.5em 1em;
+  color: rgb(255, 255, 255);
+}
+
+.ToDoHeader h1 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.ToDoHeader p {
+  font-size: 1.5em;
+}

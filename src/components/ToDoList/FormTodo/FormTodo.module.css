@@ -1,0 +1,42 @@
+.FormTodo {
+  background-color: white;
+  width: 400px;
+  padding: 1em;
+}
+
+.FormTodo p {
+  margin: 0;
+  padding: 0.2em;
+}
+
+.Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.Item input {
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 0.5em 0.5em;
+  background-color: rgb(221, 221, 221);
+}
+
+.Item input:focus {
+  outline: none;
+}
+
+.Button {
+  background-color: white;
+  padding: 0.2em 0.5em;
+  border: 2px solid palevioletred;
+  border-radius: 5px;
+}
+
+.Button:hover {
+  background-color: palevioletred;
+  color: white;
+  cursor: pointer;
+}

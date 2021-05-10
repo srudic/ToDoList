@@ -1,0 +1,27 @@
+.Todo {
+  margin: 1em 3em 0.5em 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid purple;
+}
+.Todo span {
+  padding: 0.5em 1em;
+}
+.Btns {
+  display: flex;
+}
+.Check {
+  background-color: rgb(75, 201, 138);
+  padding: 0.5em;
+}
+.Check:hover {
+  cursor: pointer;
+}
+.Remove {
+  background-color: purple;
+  padding: 0.5em;
+}
+.Remove:hover {
+  cursor: pointer;
+}
