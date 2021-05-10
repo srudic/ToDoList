@@ -1,6 +1,5 @@
 .FormTodo {
   background-color: white;
-  width: 400px;
   padding: 1em;
 }
 
@@ -39,4 +38,16 @@
   background-color: palevioletred;
   color: white;
   cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .FormTodo {
+    padding: 0.5em;
+  }
+}
+
+@media (max-width: 320px) {
+  .FormTodo {
+    padding: 0.5em 1em;
+  }
 }

@@ -14,3 +14,23 @@
 .ToDoHeader p {
   font-size: 1.5em;
 }
+
+@media (max-width: 450px) {
+  .ToDoHeader {
+    width: 280px;
+    margin-top: 3em;
+  }
+}
+
+@media (max-width: 320px) {
+  .ToDoHeader {
+    width: 100%;
+    margin-top: 0;
+  }
+  .ToDoHeader h1 {
+    padding: 0 1em;
+  }
+  .ToDoHeader p {
+    padding: 0 1.5em;
+  }
+}

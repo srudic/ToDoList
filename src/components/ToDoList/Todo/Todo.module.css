@@ -25,3 +25,15 @@
 .Remove:hover {
   cursor: pointer;
 }
+
+@media (max-width: 450px) {
+  .Todo {
+    margin: 1em 0.5em 0.5em 0.5em;
+  }
+}
+
+@media (max-width: 320px) {
+  .Todo {
+    margin: 1em 1em 0.5em 1em;
+  }
+}
