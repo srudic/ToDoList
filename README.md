@@ -1,6 +1,6 @@
 # ToDo List
 
-This web-site is created as a part of a seminar on _Business Informatics_ course.
+This web-site is created as a part of a seminar in _Business Informatics_ course.
 
 ---
 
